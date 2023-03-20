@@ -50,5 +50,10 @@ spring:
     ribbon:
       enabled: true
     circuitbreaker:
-      enabled: true       
+      enabled: true    
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"       
 
